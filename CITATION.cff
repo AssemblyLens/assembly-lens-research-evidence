@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite the technical case study."
+title: "Assembly Lens Research Evidence"
+type: generic
+authors:
+  - family-names: "Valeti"
+    given-names: "Ajay"
+version: 1.0.0
+date-released: 2026-10-17
+abstract: >-
+  Technical evidence for Assembly Lens, a local-first mixed-reality engineering
+  review system for Meta Quest 3, including a controlled investigation of an
+  intermittent grey-view failure.
+keywords:
+  - mixed reality
+  - engineering review
+  - Meta Quest 3
+  - trustworthy AI
+  - human-AI collaboration
+  - manufacturing
