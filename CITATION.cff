@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you reference this work, please cite the technical case study."
+message: "If you reference this work, please cite the relevant technical report."
 title: "Assembly Lens Research Evidence"
 type: generic
 authors:
@@ -10,7 +10,8 @@ date-released: 2026-10-17
 abstract: >-
   Technical evidence for Assembly Lens, a local-first mixed-reality engineering
   review system for Meta Quest 3, including a controlled investigation of an
-  intermittent grey-view failure.
+  intermittent grey-view failure and a reference evaluation of an
+  evidence-grounded multimodal CAD review assistant.
 keywords:
   - mixed reality
   - engineering review

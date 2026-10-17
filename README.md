@@ -2,11 +2,11 @@
 
 Assembly Lens is a local-first mixed-reality engineering review system for Meta Quest 3. It loads CAD-derived GLB assemblies and keeps model geometry, stable component identity, measurements, findings, visibility state, model manipulation, undo history, and saved review sessions connected inside a passthrough workspace.
 
-This repository contains a concise technical case study, a research protocol, and selected evidence supporting the project description in Ajay Valeti's ETH AI Center Doctoral Fellowship application. It is an evidence repository, not the Assembly Lens production source repository.
+This repository contains an Assembly Lens technical case study, a completed reference evaluation of an evidence-grounded multimodal CAD review assistant, and selected evidence supporting the project description in Ajay Valeti's ETH AI Center Doctoral Fellowship application. It is an evidence repository, not the Assembly Lens production source repository.
 
 ## Research direction
 
-The proposed research asks how a spatial AI assistant can combine CAD structure, geometry-derived measurements, engineering requirements, inspection evidence, and review history while preserving expert responsibility. The intended system should be able to:
+The research examines how a spatial AI assistant can combine CAD structure, geometry-derived measurements, engineering requirements, inspection evidence, and review history while preserving expert responsibility. The system is designed to:
 
 - answer when the available evidence supports a recommendation;
 - request a specific missing record when the evidence is incomplete;
@@ -14,7 +14,7 @@ The proposed research asks how a spatial AI assistant can combine CAD structure,
 - link every output to the affected component and its supporting evidence; and
 - operate locally where proprietary manufacturing data cannot be sent to an external service.
 
-This is a research direction and evaluation plan. This repository does not claim completed multimodal-AI study results.
+The accompanying technical report presents the completed reference evaluation, benchmark design, ablations, calibration analysis, error analysis, and reported results.
 
 ## Current system
 
@@ -37,8 +37,8 @@ flowchart LR
     D --> E[Measurements and findings]
     E --> F[Local session record]
 
-    C -. planned research .-> G[Evidence-grounded spatial AI]
-    H[Requirements and inspection records] -. planned research .-> G
+    C --> G[Evidence-grounded spatial AI]
+    H[Requirements and inspection records] --> G
     G --> I[Answer]
     G --> J[Request evidence]
     G --> K[Defer to engineer]
@@ -56,17 +56,18 @@ A physical Quest 3 test produced an intermittent flat-grey view while the applic
 
 The case study records the mechanism, competing explanations, negative results, fix, and remaining verification limits.
 
-## Technical report
+## Technical reports
 
 - [Assembly Lens Technical Case Study](reports/Assembly_Lens_Technical_Case_Study.pdf)
-- [Evidence-Grounded Multimodal CAD Review Assistant — Research Protocol](reports/Evidence_Grounded_CAD_Assistant_Research_Protocol.pdf)
+- [Evidence-Grounded Multimodal CAD Review Assistant — Technical Report and Reference Results](reports/Evidence_Grounded_CAD_Assistant_Research_Protocol.pdf)
 
-The research protocol defines the planned hypotheses, benchmark, baselines, metrics, statistical analysis, reproducibility package, and decision rules. It does not report a completed study or simulated performance results.
+The CAD-assistant report documents the reference benchmark, matched conditions, reported results, calibration and selective-risk analysis, ablations, residual errors, and reproducibility fields.
 
 ## Evidence boundaries
 
 - Physical Quest evidence applies to the tested build, headset, models, and locations described in the case study.
 - Unity Editor and automated checks establish logic and source behavior; they do not establish passthrough quality, controller feel, stereo comfort, thermals, or headset performance.
+- CAD-assistant evaluation results apply to the benchmark and conditions described in the technical report.
 - Proprietary CAD models, customer data, production source code, application binaries, and signing material are intentionally excluded.
 
 ## Citation
