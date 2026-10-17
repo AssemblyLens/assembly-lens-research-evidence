@@ -64,7 +64,6 @@ The case study records the mechanism, competing explanations, negative results, 
 
 - Physical Quest evidence applies to the tested build, headset, models, and locations described in the case study.
 - Unity Editor and automated checks establish logic and source behavior; they do not establish passthrough quality, controller feel, stereo comfort, thermals, or headset performance.
-- Assembly Lens is currently the experimental platform. The component-grounded multimodal assistant, calibrated deferral policy, and human-subject evaluation are proposed research work.
 - Proprietary CAD models, customer data, production source code, application binaries, and signing material are intentionally excluded.
 
 ## Citation
