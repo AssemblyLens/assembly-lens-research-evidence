@@ -2,7 +2,7 @@
 
 Assembly Lens is a local-first mixed-reality engineering review system for Meta Quest 3. It loads CAD-derived GLB assemblies and keeps model geometry, stable component identity, measurements, findings, visibility state, model manipulation, undo history, and saved review sessions connected inside a passthrough workspace.
 
-This repository contains a concise technical case study and selected evidence supporting the project description in Ajay Valeti's ETH AI Center Doctoral Fellowship application. It is an evidence repository, not the Assembly Lens production source repository.
+This repository contains a concise technical case study, a research protocol, and selected evidence supporting the project description in Ajay Valeti's ETH AI Center Doctoral Fellowship application. It is an evidence repository, not the Assembly Lens production source repository.
 
 ## Research direction
 
@@ -59,6 +59,9 @@ The case study records the mechanism, competing explanations, negative results, 
 ## Technical report
 
 - [Assembly Lens Technical Case Study](reports/Assembly_Lens_Technical_Case_Study.pdf)
+- [Evidence-Grounded Multimodal CAD Review Assistant — Research Protocol](reports/Evidence_Grounded_CAD_Assistant_Research_Protocol.pdf)
+
+The research protocol defines the planned hypotheses, benchmark, baselines, metrics, statistical analysis, reproducibility package, and decision rules. It does not report a completed study or simulated performance results.
 
 ## Evidence boundaries
 
